@@ -6,23 +6,6 @@
 //    Для каждой категории создать папку в которую будут перемещены соответствующие файлы
 
 
-//DriveInfo[] drivers = DriveInfo.GetDrives();
-
-//foreach (DriveInfo driver in drivers)
-//{
-//    Console.WriteLine($"Name - {driver.Name}");
-//    Console.WriteLine($"Type - {driver.DriveType}");
-//    if (driver.IsReady)
-//    {
-//        var dir = Directory.GetDirectories(driver.RootDirectory.Name, "Telegram Desktop.", SearchOption.AllDirectories);
-
-//        foreach (var directoryEntry in dir)
-//        {
-//            Console.WriteLine(directoryEntry);
-//        }
-//    }
-//}
-
 
 
 Console.WriteLine("Введите путь к папке Telegram:");
